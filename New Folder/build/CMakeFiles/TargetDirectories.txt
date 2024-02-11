@@ -1,0 +1,3 @@
+/home/dan/Рабочий стол/New Folder/build/CMakeFiles/proxy_server.dir
+/home/dan/Рабочий стол/New Folder/build/CMakeFiles/edit_cache.dir
+/home/dan/Рабочий стол/New Folder/build/CMakeFiles/rebuild_cache.dir

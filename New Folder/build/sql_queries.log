@@ -1,0 +1,27 @@
+POST http://localhost:5432/testdb HTTP/1.1
+Host: localhost:5432
+User-Agent: curl/8.1.2
+Accept: */*
+Proxy-Connection: Keep-Alive
+Content-Length: 25
+Content-Type: application/x-www-form-urlencoded
+
+SELECT * FROM test_table;
+POST http://localhost:5432/testdb HTTP/1.1
+Host: localhost:5432
+User-Agent: curl/8.1.2
+Accept: */*
+Proxy-Connection: Keep-Alive
+Content-Length: 25
+Content-Type: application/x-www-form-urlencoded
+
+SELECT * FROM test_table;
+POST http://localhost:5432/testdb HTTP/1.1
+Host: localhost:5432
+User-Agent: curl/8.1.2
+Accept: */*
+Proxy-Connection: Keep-Alive
+Content-Length: 33
+Content-Type: application/x-www-form-urlencoded
+
+SELECT count(*)  FROM test_table;
